@@ -1,0 +1,23 @@
+{
+  "api_key": "MnKTLzpXPyTts4BcLvzRdKLUGfJRLFV3",
+  "rate_limit": {
+    "requests_per_minute": 60,
+    "burst_limit": 10
+  },
+  "cache": {
+    "enabled": true,
+    "ttl_seconds": 300,
+    "max_entries": 1000
+  },
+  "features": {
+    "enable_fishing_command": true,
+    "enable_games_list_command": true,
+    "enable_detailed_stats": true
+  },
+  "display": {
+    "max_message_length": 2000,
+    "use_emojis": true,
+    "show_uuid": true,
+    "compact_mode": false
+  }
+}

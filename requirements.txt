@@ -1,0 +1,30 @@
+# MCC Island Plugin Dependencies
+# HTTP client for API requests
+aiohttp>=3.8.0
+
+# JSON handling (built-in, but listed for clarity)
+# json
+
+# UUID handling (built-in)
+# uuid
+
+# Regular expressions (built-in)
+# re
+
+# Date and time handling (built-in)
+# datetime
+
+# Type hints (built-in in Python 3.5+)
+# typing
+
+# Dataclasses (built-in in Python 3.7+)
+# dataclasses
+
+# Async support (built-in)
+# asyncio
+
+# Optional: For enhanced HTTP debugging (development only)
+# requests>=2.28.0
+
+# Note: Most dependencies are built-in Python modules
+# Only aiohttp is required as an external dependency

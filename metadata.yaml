@@ -1,5 +1,26 @@
-name: helloworld # 这是你的插件的唯一识别名。
-desc: 这是 AstrBot 的默认插件，支持关键词回复。 # 插件简短描述
-version: v1.3 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Soulter # 作者
-repo: https://github.com/Soulter/helloworld # 插件的仓库地址
+name: mccisland
+desc: MCC Island 玩家数据查询插件，支持查询所有游戏统计数据包括钓鱼
+version: v1.0.0
+author: YourName
+repo: https://github.com/YourName/bot-MCCisland
+dependencies:
+  - aiohttp>=3.8.0
+  - asyncio
+api_requirements:
+  - MCC Island API Key (https://api.mccisland.net/docs)
+features:
+  - 玩家基本信息查询
+  - 全局游戏统计
+  - 分游戏统计查询
+  - 钓鱼专项统计
+  - 支持UUID和用户名查询
+  - 可配置的功能开关
+supported_games:
+  - Parkour Warrior
+  - Sky Battle
+  - TGTTOS
+  - Hole in the Wall
+  - Battle Box
+  - Dynaball
+  - Rocket Spleef
+  - Fishing
